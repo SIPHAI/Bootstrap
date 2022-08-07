@@ -24,3 +24,18 @@
 </head>
 </html>
 </DOCTYPE>
+
+Forn size that we can change the size by changing the size forn.
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="font-size:30px;">Heading 1</h1>
+
+<p>You can change the size of a heading with the style attribute, using the font-size property.</p>
+
+</body>
+</html>
+
+
