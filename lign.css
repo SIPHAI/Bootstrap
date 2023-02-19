@@ -24,6 +24,9 @@ h2:hover{
 .submit{
 
     margin-top: 2em;
-    background-color:aquamarine;
+    /* background-color:aquamarine; */
     text-align: center;
+}
+.input{
+    color: rgb(32, 23, 23);
 }
