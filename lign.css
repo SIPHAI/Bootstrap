@@ -1,9 +1,11 @@
-div{
-    width: 500px;
-    height: 650px;
-    background-color: gray;
+.caixa_login{
+    margin: auto;
+    padding: auto;
+    width: 400px;
+    height: 500px;
+    background-color: rgb(146, 92, 92);
+    /* align-items: center; */
+}
+.caixa__login-input{
     align-items: center;
-    
-
-
 }
