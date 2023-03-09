@@ -1,13 +1,20 @@
-module.exports = function (xs, fn) {
-    var res = [];
-    for (var i = 0; i < xs.length; i++) {
-        var x = fn(xs[i], i);
-        if (isArray(x)) res.push.apply(res, x);
-        else res.push(x);
-    }
-    return res;
-};
+const fname = document.getElementById("fname");
+const lname = document.getElementById("lname");
+const submit = document.getElementById("submit");
 
-var isArray = Array.isArray || function (xs) {
-    return Object.prototype.toString.call(xs) === '[object Array]';
-};
+submit.addEventListener("submit", (e) => {
+  e.preventDefault();
+  let ebody = `
+    <h1>User Email: </h1>${fname.value}
+    <br>
+    <h1>Details: </h1>${lname.value}
+    `;
+
+  Email.send({
+    SecureToken: "996bf2cd-87d4-4895-9a55-c2ab3bac9ec4", //add your token here
+    To: "phalsiphai18@gmail.com",
+    From: "phalsiphai18@gmail.com",
+    Subject: "This is the subject",
+    Body: ebody,
+  })
+});
