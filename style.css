@@ -1,0 +1,10 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Input-files{
+    width: 700px;
+    height: 400px;
+   
+}
